@@ -23,6 +23,10 @@ define( 'SECURE_AUTH_SALT', 'hddxNkVWfkqXQDdLaXGCUOIJFqGffzURuSuizzJLCAxqldpAtnm
 define( 'LOGGED_IN_SALT', 'KnGAEVtaTunMJEijQvojayLNpcqAEygxqfwSxyyTtDnIHEbqNrknWngoDZqjvXBH' );
 define( 'NONCE_SALT', 'gkdyRilpkECATFuvRsgAGAvfziATtVkaVtPAveLdEOLEakzpjMIUpwXJhddZIyMU' );
 
+$table_prefix = 'wp_';
+
+define('WP_DEBUG', true);
+
 /** Absolute path to the WordPress directory. */
 defined( 'ABSPATH' ) || define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 

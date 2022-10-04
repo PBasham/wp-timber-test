@@ -10,6 +10,6 @@
     <hr/>
 
 <!-- end of the loop. Also displays message if there are no post. -->
-<?php endwhile; else : ?>
+<?php endwhile; else : ?> 
 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
